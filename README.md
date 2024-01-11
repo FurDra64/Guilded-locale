@@ -1,0 +1,1 @@
+ReGuildedやブラウザのStylusなどを使ってGuildedに日本語訳を追加する
