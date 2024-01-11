@@ -2,6 +2,13 @@
     --hover-text: "test";
 }
 
+
+/*@media (prefers-color-scheme: var(--theme)) {*/
+    @import url("https://furdra64.github.io/Guilded-locale/locale/" + var(--language) + ".css"); /* 変数の値に応じたCSSファイルをimport */
+/*}*/
+
+.ParagraphRenderer:not(.ParagraphRenderer-size-sm) + .ParagraphRenderer:not(.slate-margin-none) {margin-top:0px;}
+
 /*====================*\
 =-=-=-=-設定画面-=-=-=-=
 \*====================*/
@@ -9,24 +16,13 @@
 .DesktopOptionsControlOptionHeader-header-text {font-size:0}
 .DesktopOptionsControlOptionHeader-header-text:before {font-size:13px}
 
-.PersistentActionMenuSection-container:nth-of-type(1) .DesktopOptionsControlOptionHeader-header-text:before {content:"ユーザー設定"}
+.PersistentActionMenuSection-container:nth-of-type(1) .DesktopOptionsControlOptionHeader-header-text:before {content:--locale-user-settings}
 .PersistentActionMenuSection-container:nth-of-type(2) .DesktopOptionsControlOptionHeader-header-text:before {content:"アプリの設定"}
 .PersistentActionMenuSection-container:nth-of-type(3) .DesktopOptionsControlOptionHeader-header-text:before {content:"ReGuilded"}
 
-.DesktopOptionsControlItemTemplate-container[data-name="Overview"]              {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Email"]                 {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Billing"]               {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"]      {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Privacy"]               {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Connections"]           {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="Overview"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="Email"]                 .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="Billing"]               .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"]      .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="Privacy"]               .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="Connections"]           .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container:is([data-name="Overview"],[data-name="Email"],[data-name="Billing"],[data-name="SecuritySettings"],[data-name="Privacy"],[data-name="Connections"],[data-name="Advanced"],[data-name="GeneralSettings"],[data-name="VoiceAndVideoSettings"],[data-name="KeybindSettings"],[data-name="WindowsSettings"],[data-name="SoundSettings"],[data-name="StreamerMode"],[data-name="rgGeneral"],[data-name="rgAddons"],[data-name="rgThemes"],[data-name="lgcssbtn"]) {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container:is([data-name="Overview"],[data-name="Email"],[data-name="Billing"],[data-name="SecuritySettings"],[data-name="Privacy"],[data-name="Connections"],[data-name="Advanced"],[data-name="GeneralSettings"],[data-name="VoiceAndVideoSettings"],[data-name="KeybindSettings"],[data-name="WindowsSettings"],[data-name="SoundSettings"],[data-name="StreamerMode"],[data-name="rgGeneral"],[data-name="rgAddons"],[data-name="rgThemes"],[data-name="lgcssbtn"]) .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+
 .DesktopOptionsControlItemTemplate-container[data-name="Overview"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"概要";}
 .DesktopOptionsControlItemTemplate-container[data-name="Email"]                 .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"メールアドレス";}
 .DesktopOptionsControlItemTemplate-container[data-name="Billing"]               .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"請求";}
@@ -35,20 +31,6 @@
 .DesktopOptionsControlItemTemplate-container[data-name="Connections"]           .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"接続";}
 .DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"詳細設定";}
 
-
-
-.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"]       {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
 .DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"一般設定";}
 .DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"音声・ビデオ";}
 .DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"キー割り当て";}
@@ -56,18 +38,9 @@
 .DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"効果音";}
 .DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"配信モード";}
 
-.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
-.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
 .DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"一般";}
 .DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"アドオン";}
 .DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"テーマ";}
-
-.DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-container {padding-bottom:0px}
-.DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
 .DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"CSSエディタ";}
 
 

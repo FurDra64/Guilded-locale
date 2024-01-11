@@ -1,1 +1,8 @@
-@import url(https://raw.githubusercontent.com/FurDra64/Guilded-locale/main/main.css);
+@import url(https://furdra64.github.io/Guilded-locale/main.css);
+:root{
+        /*Settings*/
+                        --language: "ja";
+              --custom-locale-file: "css link here";
+    --Remove-spaces-in-line-breaks: "true";
+                --background-image: "image link here";
+}
