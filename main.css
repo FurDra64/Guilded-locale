@@ -1,0 +1,206 @@
+:root {
+    --hover-text: "test";
+}
+
+/*====================*\
+=-=-=-=-設定画面-=-=-=-=
+\*====================*/
+
+.DesktopOptionsControlOptionHeader-header-text {font-size:0}
+.DesktopOptionsControlOptionHeader-header-text:before {font-size:13px}
+
+.PersistentActionMenuSection-container:nth-of-type(1) .DesktopOptionsControlOptionHeader-header-text:before {content:"ユーザー設定"}
+.PersistentActionMenuSection-container:nth-of-type(2) .DesktopOptionsControlOptionHeader-header-text:before {content:"アプリの設定"}
+.PersistentActionMenuSection-container:nth-of-type(3) .DesktopOptionsControlOptionHeader-header-text:before {content:"ReGuilded"}
+
+.DesktopOptionsControlItemTemplate-container[data-name="Overview"]              {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Email"]                 {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Billing"]               {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"]      {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Privacy"]               {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Connections"]           {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="Overview"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Email"]                 .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Billing"]               .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"]      .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Privacy"]               .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Connections"]           .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="Overview"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"概要";}
+.DesktopOptionsControlItemTemplate-container[data-name="Email"]                 .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"メールアドレス";}
+.DesktopOptionsControlItemTemplate-container[data-name="Billing"]               .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"請求";}
+.DesktopOptionsControlItemTemplate-container[data-name="SecuritySettings"]      .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"セキュリティ";}
+.DesktopOptionsControlItemTemplate-container[data-name="Privacy"]               .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"プライバシー";}
+.DesktopOptionsControlItemTemplate-container[data-name="Connections"]           .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"接続";}
+.DesktopOptionsControlItemTemplate-container[data-name="Advanced"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"詳細設定";}
+
+
+
+.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"]       {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"]       .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="GeneralSettings"]       .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"一般設定";}
+.DesktopOptionsControlItemTemplate-container[data-name="VoiceAndVideoSettings"] .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"音声・ビデオ";}
+.DesktopOptionsControlItemTemplate-container[data-name="KeybindSettings"]       .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"キー割り当て";}
+.DesktopOptionsControlItemTemplate-container[data-name="WindowsSettings"]       .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"Windows設定";}
+.DesktopOptionsControlItemTemplate-container[data-name="SoundSettings"]         .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"効果音";}
+.DesktopOptionsControlItemTemplate-container[data-name="StreamerMode"]          .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"配信モード";}
+
+.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="rgGeneral"]             .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"一般";}
+.DesktopOptionsControlItemTemplate-container[data-name="rgAddons"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"アドオン";}
+.DesktopOptionsControlItemTemplate-container[data-name="rgThemes"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"テーマ";}
+
+.DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-container {padding-bottom:0px}
+.DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-label-text {font-size:0;}
+.DesktopOptionsControlItemTemplate-container[data-name="lgcssbtn"]              .DesktopOptionsControlItemTemplate-label-text:before {font-size:15px;content:"CSSエディタ";}
+
+
+
+.FormHeader-container {font-size:0}
+.FormHeader-container:before {font-size:15px}
+
+.OptionsMenuPageWrapper-container .Form-container-section-border .FormHeader-container:before {content:"一般設定";}
+.OptionsMenuPageWrapper-container .VoicePreferencesPane-container .FormHeader-container:before {content:"音声とビデオ";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormHeader-container:before {content:"概要";}
+
+
+/*概要*/
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row .TextInputWithLabel-floating-label {font-size:0}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-text {font-size:0}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row:nth-of-type(1) .TextInputWithLabel-floating-label:before {font-size:14px;content:"名前";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row:nth-of-type(2) .TextInputWithLabel-floating-label:before {font-size:14px;content:"メールアドレス";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row:nth-of-type(3) .TextInputWithLabel-floating-label:before {font-size:14px;content:"リンク";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-container-type-bleached .FormConfirmButtonV2-text:before {font-size:14px;content:"アカウントを編集";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-container-type-white .FormConfirmButtonV2-text:before {font-size:14px;content:"パスワードを変更";}
+.OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-container-type-delete .FormConfirmButtonV2-text:before {font-size:14px;content:"アカウントを削除する";}
+
+/*音声・ビデオ*/
+
+/*
+.VoiceAndVideoSettingsPage-container .FormFieldLabel-container {font-size:0}
+.VoiceAndVideoSettingsPage-container .FormFieldLabel-container:before {font-size:12px}
+*/
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(1) .FormFieldLabel-container{font-size:0;}
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(2) .FormFieldLabel-container{font-size:0;}
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(1) .FormFieldLabel-container:before {font-size:12px;content:"入力デバイス";}
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(2) .FormFieldLabel-container:before {font-size:12px;content:"出力デバイス";}
+
+/*
+.VoiceAndVideoSettingsPage-container .RangeSlider-label {font-size:0}
+.VoiceAndVideoSettingsPage-container .RangeSlider-label:before {font-size:13px}
+.VoiceAndVideoSettingsPage-container .GuildedText-container-type-subtextHeading {font-size:0}
+*/
+
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(1) .GuildedText-container-type-subtextHeading:before {content:"入力音量"}
+.VoiceAndVideoSettingsPage-container .FormFieldWrapper-container:nth-of-type(2) .GuildedText-container-type-subtextHeading:before {content:"出力音量"}
+.MicTester-container .GuildedText-container:before {font-size:13px;content:"マイクテスト"}
+.MicTester-container .MicTester-description {font-size:0;margin-bottom:4px}
+.MicTester-container .MicTester-description:before{font-size:14px;content:"マイクのテストにお使いください。あなたの声を再生します";}
+
+
+
+/*====================*\
+=-=-=-チャット画面-=-=-=
+\*====================*/
+
+/*sidebar*/
+.SidebarInviteButton-text {font-size:0;}
+.SidebarInviteButton-text:before {font-size:15px;content:"招待";}
+
+/*hover*/
+
+.DraggableContext-container:has(.ChannelActivityIcon-container:hover)               .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.NavbarNavIcons-user-settings:hover)                .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.NavbarNavIcons-overflow-dropdown-trigger:hover)    .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.ChannelActivityIcon-container:hover)               .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"アクティビティ";}
+.DraggableContext-container:has(.NavbarNavIcons-user-settings:hover)                .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"設定";}
+.DraggableContext-container:has(.NavbarNavIcons-overflow-dropdown-trigger:hover)    .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"もっと見る";}
+
+.DraggableContext-container:has(.ChannelHeaderActionButtons-button:hover)               .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.SidebarCollapseButton-container:hover)                .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.ChannelHeaderActionButtons-options-menu-trigger:hover)    .TransientMenuPortalContext-portal-container .HoverContextTooltip-text {font-size:0;}
+.DraggableContext-container:has(.ChannelHeaderActionButtons-button:hover)               .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"ピン留めされたアイテム";}
+.DraggableContext-container:has(.SidebarCollapseButton-container:hover):has(.icon-collapse-sidebar)                .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"サイドバーを非表示";}
+.DraggableContext-container:has(.SidebarCollapseButton-container:hover):has(.icon-expand-sidebar)                .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"サイドバーを表示";}
+.DraggableContext-container:has(.ChannelHeaderActionButtons-options-menu-trigger:hover)    .TransientMenuPortalContext-portal-container .HoverContextTooltip-text:before {font-size:12px;content:"チャンネル オプション";}
+
+
+/*overlay*/
+
+
+/*More*/
+.ContextMenuItem-container:has(.icon-reward)               .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-wrench)               .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-quill)                .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-publish)              .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-sparkles)             .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-partner-badge-hollow) .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-thumbs-up)            .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-exit)                 .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-reward)               .ContextMenuItem-label:before {font-size:14px;content:"紹介プログラム";}
+.ContextMenuItem-container:has(.icon-wrench)               .ContextMenuItem-label:before {font-size:14px;content:"サポート";}
+.ContextMenuItem-container:has(.icon-quill)                .ContextMenuItem-label:before {font-size:14px;content:"フィードバック";}
+.ContextMenuItem-container:has(.icon-publish)              .ContextMenuItem-label:before {font-size:14px;content:"ブログ";}
+.ContextMenuItem-container:has(.icon-sparkles)             .ContextMenuItem-label:before {font-size:14px;content:"変更履歴";}
+.ContextMenuItem-container:has(.icon-partner-badge-hollow) .ContextMenuItem-label:before {font-size:14px;content:"パートナーになる";}
+.ContextMenuItem-container:has(.icon-thumbs-up)            .ContextMenuItem-label:before {font-size:14px;content:"SNSをフォローする";}
+.ContextMenuItem-container:has(.icon-exit)                 .ContextMenuItem-label:before {font-size:14px;content:"ログアウト";}
+
+/*message send*/
+.ContextMenuItem-container:has(.icon-media-new)   .ContextMenuItem-label {font-size:0;}
+/*.ContextMenuItem-container:has(.icon-toolbar-gif) .ContextMenuItem-label {font-size:0;}*/
+.ContextMenuItem-container:has(.icon-polls)       .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-custom-form) .ContextMenuItem-label {font-size:0;}
+.ContextMenuItem-container:has(.icon-polls)       .ContextMenuItem-body {font-size:0;}
+.ContextMenuItem-container:has(.icon-custom-form) .ContextMenuItem-body {font-size:0;}
+.ContextMenuItem-container:has(.icon-media-new)   .ContextMenuItem-label:before {font-size:14px;content:"メディアまたはファイル";}
+/*.ContextMenuItem-container:has(.icon-toolbar-gif) .ContextMenuItem-label:before {font-size:14px;content:"GIF";}*/
+.ContextMenuItem-container:has(.icon-polls)       .ContextMenuItem-label:before {font-size:14px;content:"投票";}
+.ContextMenuItem-container:has(.icon-custom-form) .ContextMenuItem-label:before {font-size:14px;content:"フォーム";}
+
+
+.ContextMenuItem-container:has(.icon-polls)       .ContextMenuItem-body:before {font-size:14px;content:"単一または複数選択肢の質問。";}
+.ContextMenuItem-container:has(.icon-custom-form) .ContextMenuItem-body:before {font-size:14px;content:"様々なタイプの問題を複数出題。";}
+
+
+
+
+
+
+
+
+
+
+
+
+/*modal*/
+
+/*Change Password*/
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:"パスワードを変更";}
+
+
+
+
+
+
+
+
+
+
