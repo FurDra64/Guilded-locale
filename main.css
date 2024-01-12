@@ -193,15 +193,15 @@
 .ModalV2-container:has(.ChangePasswordOverlay-container) .TextButton-container:before {font-size:15px;content:var(--locale-Forgot-password);}
 .ModalV2-container:has(.ChangePasswordOverlay-container) .CancelText-container:before {font-size:15px;content:var(--locale-Cancel);}
 .ModalV2-container:has(.ChangePasswordOverlay-container) .FormConfirmButtonV2-text:before {font-size:15px;content:var(--locale-Done);}
-.ModalV2-container:has(.ChangePasswordOverlay-mungedEmail) .GuildedText-container-type-subtext {font-size:14px;content:var(--locale-Forgot-password-text);}
-.ModalV2-container:has(.ChangePasswordOverlay-mungedEmail) .FormConfirmButtonV2-text {font-size:14px;content:var(--locale-Send-again);}
+.ModalV2-container:has(.ChangePasswordOverlay-mungedEmail) .GuildedText-container-type-subtext:before {font-size:14px;content:var(--locale-Forgot-password-text);}
+.ModalV2-container:has(.ChangePasswordOverlay-mungedEmail) .FormConfirmButtonV2-text:before {font-size:14px;content:var(--locale-Send-again);}
 .ModalV2-container:has(.ChangePasswordOverlay-mungedEmail) .TextButton-container:before {font-size:0;content:"";}
 
 /*Delete Account*/
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header {font-size:0;}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .GuildedText-container {font-size:0;}
-.ModalV2-container:has(.DeleteUserAccountOverlay-container) .CancelText-container:before {font-size:0;}
-.ModalV2-container:has(.DeleteUserAccountOverlay-container) .FormConfirmButtonV2-text:before {font-size:0;}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .CancelText-container {font-size:0;}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .FormConfirmButtonV2-text {font-size:0;}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Danger-Zone);}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .GuildedText-container:before {font-size:15px;content:var(--locale-Delete-account-have-server);}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .CancelText-container:before {font-size:15px;content:var(--locale-Cancel);}
