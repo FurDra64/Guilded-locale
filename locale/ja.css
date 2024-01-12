@@ -2,7 +2,7 @@
 :root {
     /*other*/
     --locale-Cancel:"キャンセル";
-    --locale-Done:"確定";
+    --locale-Done:"完了";
     /*Settings*/
     --locale-Your-settings:"ユーザー設定";
         --locale-Overview:"概要";
@@ -12,9 +12,10 @@
             --locale-Change-password:"パスワードを変更";
             --locale-Current-password:"現在のパスワード";
             --locale-New-password:"新しいパスワード";
-            --locale-Log-out-all-other-sessions:"";
+            --locale-Log-out-all-other-sessions:"他のすべてのセッションをログアウトする";
             --locale-Forgot-password:"パスワードを忘れた?";
-            --locale-Forgot-password-text:"";
+            --locale-Forgot-password-text:"リセットの手順については、以下のアカウントに関連付けられた電子メールを確認してください。";
+            --locale-Send-again:"もう一度送信";
             --locale-Delete-account:"アカウントを削除する";
             --locale-Danger-Zone:"危険地帯";
             --locale-Delete-account-have-server:"あなたがサーバーオーナーだからといって、アカウントを削除することはできません。所有しているサーバーを解散するか、サーバーの所有権を他の人に譲ってください。サーバーの所有者がいなくなれば、アカウントを削除することができます。";

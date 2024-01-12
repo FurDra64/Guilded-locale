@@ -178,7 +178,23 @@
 
 /*Change Password*/
 .ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormFieldWrapper-container[data-name="currentPassword"] .TextInputWithLabel-floating-label {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormFieldWrapper-container[data-name="password"] .TextInputWithLabel-floating-label {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ToggleFieldWrapper-label {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .TextButton-container {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .CancelText-container {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormConfirmButtonV2-text {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container):has(.ChangePasswordOverlay-mungedEmail) .GuildedText-container-type-subtext {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container):has(.ChangePasswordOverlay-mungedEmail) .FormConfirmButtonV2-text {font-size:0;}
 .ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Change-password);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormFieldWrapper-container[data-name="currentPassword"] .TextInputWithLabel-floating-label:before {font-size:15px;content:var(--locale-Current-password);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormFieldWrapper-container[data-name="password"] .TextInputWithLabel-floating-label:before {font-size:15px;content:var(--locale-New-password);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ToggleFieldWrapper-label:before {font-size:15px;content:var(--locale-Log-out-all-other-sessions);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .TextButton-container:before {font-size:15px;content:var(--locale-Forgot-password);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .CancelText-container:before {font-size:15px;content:var(--locale-Cancel);}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .FormConfirmButtonV2-text:before {font-size:15px;content:var(--locale-Done);}
+.ModalV2-container:has(.ChangePasswordOverlay-container):has(.ChangePasswordOverlay-mungedEmail) .GuildedText-container-type-subtext {font-size:14px;content:var(--locale-Forgot-password-text);}
+.ModalV2-container:has(.ChangePasswordOverlay-container):has(.ChangePasswordOverlay-mungedEmail) .FormConfirmButtonV2-text {font-size:14px;content:var(--locale-Send-again);}
 
 /*Delete Account*/
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header {font-size:0;}
