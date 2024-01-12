@@ -50,7 +50,7 @@
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormHeader-container:before {content:var(--locale-Overview);}
 
 
-/*概要*/
+/*Settings - Overview*/
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row .TextInputWithLabel-floating-label {font-size:0}
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-text {font-size:0}
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormSection-row:nth-of-type(1) .TextInputWithLabel-floating-label:before {font-size:14px;content:var(--locale-Your-name);}
@@ -60,7 +60,22 @@
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-container-type-white .FormConfirmButtonV2-text:before {font-size:14px;content:var(--locale-Change-password);}
 .OptionsMenuPageWrapper-container .DefaultReadonlyEditableForm-container .FormConfirmButtonV2-container-type-delete .FormConfirmButtonV2-text:before {font-size:14px;content:var(--locale-Delete-account);}
 
-/*音声・ビデオ*/
+/*Settings - Email*/
+.UserSettingsEmailPage-header {font-size:0;}
+.UserSettingsEmailPage-select-button:nth-of-type(1) {font-size:0;}
+.UserSettingsEmailPage-select-button:nth-of-type(2) {font-size:0;}
+.UserSettingsEmailPage-form-item:nth-of-type(1) {font-size:0;}
+.UserSettingsEmailPage-form-item:nth-of-type(2) {font-size:0;}
+.UserSettingsEmailPage-header:before {font-size:18px;content:var(--locale-Email-settings);}
+.UserSettingsEmailPage-select-button:nth-of-type(1):before {font-size:14px;content:var(--locale-Select-all);}
+.UserSettingsEmailPage-select-button:nth-of-type(2):before {font-size:14px;content:var(--locale-Deselect-all);}
+.UserSettingsEmailPage-form-item:nth-of-type(1):before {font-size:px;content:var(--locale-Notification-type);}
+.UserSettingsEmailPage-form-item:nth-of-type(2):before {font-size:px;content:var(--locale-Email);}
+
+/*.UserSettingsEmailPage-container*/
+
+
+/*Settings - 音声・ビデオ*/
 
 /*
 .VoiceAndVideoSettingsPage-container .FormFieldLabel-container {font-size:0}
@@ -163,7 +178,13 @@
 
 /*Change Password*/
 .ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header {font-size:0;}
-.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:"パスワードを変更";}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Change-password);}
+
+/*Delete Account*/
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header {font-size:0;}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header {font-size:0;}
+.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Danger-Zone);}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .GuildedText-container:before {font-size:15px;content:var(--locale-Delete-account-have-server);}
 
 
 

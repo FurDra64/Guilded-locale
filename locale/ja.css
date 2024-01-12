@@ -1,5 +1,8 @@
 @import url(https://furdra64.github.io/Guilded-locale/main.css);
 :root {
+    /*other*/
+    --locale-Cancel:"キャンセル";
+    --locale-Done:"確定";
     /*Settings*/
     --locale-Your-settings:"ユーザー設定";
         --locale-Overview:"概要";
@@ -7,8 +10,21 @@
             --locale-URL:"リンク";
             --locale-Edit-account:"アカウントを編集";
             --locale-Change-password:"パスワードを変更";
+            --locale-Current-password:"現在のパスワード";
+            --locale-New-password:"新しいパスワード";
+            --locale-Log-out-all-other-sessions:"";
+            --locale-Forgot-password:"パスワードを忘れた?";
+            --locale-Forgot-password-text:"";
             --locale-Delete-account:"アカウントを削除する";
+            --locale-Danger-Zone:"危険地帯";
+            --locale-Delete-account-have-server:"あなたがサーバーオーナーだからといって、アカウントを削除することはできません。所有しているサーバーを解散するか、サーバーの所有権を他の人に譲ってください。サーバーの所有者がいなくなれば、アカウントを削除することができます。";
+            --locale-Delete-my-account:"アカウントを削除";
         --locale-Email:"メールアドレス";
+            --locale-Email-settings:"メールアドレス設定";
+            --locale-Select-all:"全て選択";
+            --locale-Deselect-all:"全て選択解除";
+            --locale-Notification-type:"通知タイプ";
+            --locale-General-emails:"";
         --locale-Billing:"請求";
         --locale-Security:"セキュリティ";
         --locale-Privacy:"プライバシー";
