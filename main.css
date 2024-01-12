@@ -69,8 +69,8 @@
 .UserSettingsEmailPage-header:before {font-size:18px;content:var(--locale-Email-settings);}
 .UserSettingsEmailPage-select-button:nth-of-type(1):before {font-size:14px;content:var(--locale-Select-all);}
 .UserSettingsEmailPage-select-button:nth-of-type(2):before {font-size:14px;content:var(--locale-Deselect-all);}
-.UserSettingsEmailPage-form-item:nth-of-type(1):before {font-size:px;content:var(--locale-Notification-type);}
-.UserSettingsEmailPage-form-item:nth-of-type(2):before {font-size:px;content:var(--locale-Email);}
+.UserSettingsEmailPage-form-item:nth-of-type(1):before {font-size:14px;content:var(--locale-Notification-type);}
+.UserSettingsEmailPage-form-item:nth-of-type(2):before {font-size:14px;content:var(--locale-Email);}
 
 /*.UserSettingsEmailPage-container*/
 
@@ -181,9 +181,9 @@
 .ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Change-password);}
 
 /*Delete Account*/
-.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header {font-size:0;}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header {font-size:0;}
-.ModalV2-container:has(.ChangePasswordOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Danger-Zone);}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .GuildedText-container {font-size:0;}
+.ModalV2-container:has(.DeleteUserAccountOverlay-container) .ModalHeaderV2-header:before {font-size:15px;content:var(--locale-Danger-Zone);}
 .ModalV2-container:has(.DeleteUserAccountOverlay-container) .GuildedText-container:before {font-size:15px;content:var(--locale-Delete-account-have-server);}
 
 
