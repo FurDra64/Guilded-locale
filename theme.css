@@ -1,8 +1,7 @@
-@import url(https://furdra64.github.io/Guilded-locale/main.css);
+/* https://furdra64.github.io/Guilded-locale/locale/  [ your language (default ja) ]  .css 
+        https://furdra64.github.io/Guilded-locale/locale/ja.css     */
+@import url(https://furdra64.github.io/Guilded-locale/locale/ja.css);
 :root{
-        /*Settings*/
-                        --language: "ja";
-              --custom-locale-file: "css link here";
-    --Remove-spaces-in-line-breaks: "true";
-                --background-image: "image link here";
+    --newline-space: 0px; /*default 20px Recommended 0px*/
+    --background-image: url("image link here");
 }
